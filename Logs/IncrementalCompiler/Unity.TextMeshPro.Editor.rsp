@@ -71,9 +71,6 @@
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.5f1\Editor\Data\Managed/Unity.Locator.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
@@ -88,16 +85,17 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Mdb.dll
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Pdb.dll
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
--r:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Mdb.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Pdb.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:"C:/Users/I/Saved Games/Blank ECS/Assets/Plugins/Editor/CSharpLatest.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.5f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.5f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.5f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
@@ -309,43 +307,43 @@
 -d:ENABLE_UNITY_COLLECTIONS_CHECKS
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/DropdownOptionListDrawer.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/EditorCoroutine.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/GlyphInfoDrawer.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/KerningPairDrawer.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/SpriteInfoDrawer.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_BaseShaderGUI.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_BitmapShaderGUI.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_ColorGradientAssetMenu.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_ColorGradientEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_DropdownEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_EditorPanel.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_EditorUtility.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_FontAssetEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_InputFieldEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_MeshRendererEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_PackageUtilities.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_PostBuildProcessHandler.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_ProjectTextSettings.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_ResourcesLoader.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SDFShaderGUI.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SettingsEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SpriteAssetEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SpriteAssetImporter.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SpriteAssetMenu.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_StyleAssetMenu.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_StyleSheetEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SubMesh_Editor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SubMeshUI_Editor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_UiEditorPanel.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_UIStyleManager.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_ContextMenus.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_CreateObjectMenu.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_EditorShaderUtilities.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_FontPlugin.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_SDFMaterialEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_SortingLayerHelper.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_TextContainerEditor.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_TexturePostProcessor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/DropdownOptionListDrawer.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/EditorCoroutine.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/GlyphInfoDrawer.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/KerningPairDrawer.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/SpriteInfoDrawer.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_BaseShaderGUI.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_BitmapShaderGUI.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_ColorGradientAssetMenu.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_ColorGradientEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_DropdownEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_EditorPanel.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_EditorUtility.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_FontAssetEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_InputFieldEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_MeshRendererEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_PackageUtilities.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_PostBuildProcessHandler.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_ProjectTextSettings.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_ResourcesLoader.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SDFShaderGUI.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SettingsEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SpriteAssetEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SpriteAssetImporter.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SpriteAssetMenu.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_StyleAssetMenu.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_StyleSheetEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SubMesh_Editor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_SubMeshUI_Editor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_UiEditorPanel.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMP_UIStyleManager.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_ContextMenus.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_CreateObjectMenu.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_EditorShaderUtilities.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_FontPlugin.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_SDFMaterialEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_SortingLayerHelper.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_TextContainerEditor.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Editor/TMPro_TexturePostProcessor.cs
 -v:0
