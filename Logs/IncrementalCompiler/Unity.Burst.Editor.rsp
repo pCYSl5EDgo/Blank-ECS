@@ -71,6 +71,9 @@
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.5f1\Editor\Data\Managed/Unity.Locator.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
@@ -85,7 +88,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+-r:"C:/Users/I/Saved Games/Blank ECS/Assets/Plugins/Editor/CSharpLatest.dll"
+-r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.ads@2.0.9/Editor/UnityEditor.Advertisements.dll
 -r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
 -r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll
 -r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll
@@ -95,7 +99,6 @@
 -r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
 -r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
 -r:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
--r:"C:/Users/I/Saved Games/Blank ECS/Assets/Plugins/Editor/CSharpLatest.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.5f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.5f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.5f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
@@ -307,13 +310,15 @@
 -d:ENABLE_UNITY_COLLECTIONS_CHECKS
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
--i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.24/Editor/BurstAotCompiler.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.24/Editor/BurstCompilerOptions.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.24/Editor/BurstCompileTarget.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.24/Editor/BurstEditorOptions.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.24/Editor/BurstInspectorGUI.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.24/Editor/BurstLoader.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.24/Editor/BurstMenu.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.24/Editor/BurstReflection.cs
--i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.24/Editor/LongTextArea.cs
+-d:UNITY_DISABLE_AUTOMATIC_SYSTEM_BOOTSTRAP
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.26/Editor/BurstAotCompiler.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.26/Editor/BurstCompilerOptions.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.26/Editor/BurstCompileTarget.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.26/Editor/BurstEditorOptions.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.26/Editor/BurstInspectorGUI.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.26/Editor/BurstLoader.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.26/Editor/BurstMenu.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.26/Editor/BurstReflection.cs
+-i:C:/Users/I/AppData/Local/Unity/cache/packages/staging-packages.unity.com/com.unity.burst@0.2.4-preview.26/Editor/LongTextArea.cs
+@Assets\mcs.rsp
 -v:0
