@@ -1,9 +1,9 @@
 [Ll]ibrary/
+[Ll]ogs/*.rsp
 [Dd]ebug/
 [Tt]emp/
 [Oo]bj/
-[Bb]uild/
-[Bb]uilds/
+[Bb]uild*/
 Assets/AssetStoreTools*
 .vscode/
 *.sln
